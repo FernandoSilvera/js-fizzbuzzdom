@@ -18,8 +18,8 @@ for (let i = 1; i <= 100; i++) {
     color = "no-fizzbuzz";
   }
 
-  row.innerHTML += `<div class="col ${color}">
-                      <span>${text}</span>
-                    </div>`
+row.innerHTML += `<div class="col ${color}">
+                    <span>${text}</span>
+                  </div>`
 }
 
